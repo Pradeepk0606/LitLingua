@@ -7,58 +7,29 @@ pydantic-settings==2.1.0
 
 # Database
 sqlalchemy==2.0.23
-alembic==1.12.1
 
-# AI/ML Models
-transformers==4.35.2
-torch
-sentencepiece
-sacremoses==0.1.1
-
-# OCR
+# Lightweight OCR & Processing
 pytesseract==0.3.10
 pdf2image==1.16.3
 Pillow
-opencv-python==4.8.1.78
 
 # PDF Processing
 PyPDF2==3.0.1
 reportlab==4.0.7
 fpdf2==2.7.6
 
-# Text-to-Speech
+# Text-to-Speech & Audio
 gTTS==2.4.0
 pydub==0.25.1
 
 # Language Detection
 langdetect==1.0.9
-# polyglot and pycld2 removed for Windows compatibility
 
-# Utilities
+# Utilities & Networking
 python-dotenv==1.0.0
 aiofiles==23.2.1
 httpx==0.25.2
-numpy==1.26.2
-pandas==2.1.3
 
 # Security
 python-jose[cryptography]==3.3.0
 passlib[bcrypt]==1.7.4
-python-multipart==0.0.6
-
-# CORS
-fastapi-cors==0.0.6
-
-# Testing
-pytest==7.4.3
-pytest-asyncio==0.21.1
-pytest-cov==4.1.0
-httpx==0.25.2
-
-# Development
-black==23.11.0
-flake8==6.1.0
-mypy==1.7.1
-
-# Monitoring
-prometheus-fastapi-instrumentator==6.1.0
