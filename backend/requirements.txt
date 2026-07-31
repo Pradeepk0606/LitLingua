@@ -11,14 +11,14 @@ alembic==1.12.1
 
 # AI/ML Models
 transformers==4.35.2
-torch==2.7.1
-sentencepiece==0.1.99
+torch
+sentencepiece
 sacremoses==0.1.1
 
 # OCR
 pytesseract==0.3.10
 pdf2image==1.16.3
-Pillow==10.1.0
+Pillow
 opencv-python==4.8.1.78
 
 # PDF Processing
